@@ -3,9 +3,9 @@
 }
 
 .main-header {
-	border: 1px black solid;
-	padding: 10px;
 	background-color: yellow;
+	font-size: 50px;
+	padding: 10px;
 }
 
 .heading {
@@ -22,7 +22,7 @@
 .navbar {
 	display: inline-block;
 	text-align: right;
-	width: calc(100% - 40px);
+	width: calc(100% - 120px);
 }
 
 .links {
@@ -51,6 +51,7 @@
 .link > .btn {
 	background-color: red;
 	padding: 5px;
+	margin-left: 10px;
 	color: white;
 	border-radius: 8px;
 }
