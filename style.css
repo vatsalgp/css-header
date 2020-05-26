@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+}
+
+.main-header {
+	border: 1px black solid;
+	padding: 10px;
+	background-color: yellow;
+}
+
+.heading {
+	display: inline-block;
+}
+
+.logo {
+	color: green;
+	text-decoration: none;
+	font-family: cursive;
+	font-weight: bold;
+}
+
+.navbar {
+	display: inline-block;
+	text-align: right;
+	width: calc(100% - 40px);
+}
+
+.links {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.link {
+	display: inline-block;
+}
+
+.link > a {
+	padding: 0 0 5px 10px;
+	text-decoration: none;
+	color: green;
+	font-weight: bold;
+}
+
+.link > a:hover,
+.link > a:active {
+	color: black;
+	border-bottom: 5px black solid;
+}
+
+.link > .btn {
+	background-color: red;
+	padding: 5px;
+	color: white;
+	border-radius: 8px;
+}
+
+.link > .btn:hover,
+.link > .btn:active {
+	background-color: white;
+	color: red;
+	border: none;
+}
